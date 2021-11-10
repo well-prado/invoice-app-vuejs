@@ -1,4 +1,4 @@
-# hello-world
+# Invoice App With Vue 3, Vuex & Firebase
 
 ## Project setup
 ```
@@ -22,3 +22,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### YouTube video
+[John Komarnicki](https://www.youtube.com/watch?v=vsJtN54aA7w).
