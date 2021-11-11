@@ -3,12 +3,12 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBEnxXZLh54RSRA5QRYESZpgvg_CE58tq8",
-  authDomain: "invoice-app-vuejs-5c5a6.firebaseapp.com",
-  projectId: "invoice-app-vuejs-5c5a6",
-  storageBucket: "invoice-app-vuejs-5c5a6.appspot.com",
-  messagingSenderId: "304813069550",
-  appId: "1:304813069550:web:ca7a11db995e9355fd8fff"
+  apiKey: process.env.VUE_APP_API_KEY,
+  authDomain: process.env.VUE_APP_AUTH_DOMAIN,
+  projectId: process.env.VUE_APP_PROJECTID,
+  storageBucket: process.env.VUE_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.VUE_APP_MESSAGING_SENDER_ID,
+  appId: process.env.VUE_APP_APP_ID,
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
